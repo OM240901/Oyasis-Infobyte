@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator </title>
+  </head>
+
+  <!--CSS File-->
+<!-- <style></style> -->
+  <body>
+    <section class="calci">
+    <div class="container-first">
+      <form name="val" class="calculator"> 
+        <input type="text" class="value" name="ans" />
+        <span onclick="document.val.ans.value+='1'">1</span>
+        <span onclick="document.val.ans.value+='2'">2</span>
+        <span onclick="document.val.ans.value+='3'">3</span>
+        
+
+        <span style="background: rgb(245, 146, 62);" onclick="document.val.ans.value+='+'">+</span>
+        
+
+        <span onclick="document.val.ans.value+='4'">4</span>
+        <span onclick="document.val.ans.value+='5'">5</span>
+        <span onclick="document.val.ans.value+='6'">6</span>
+        
+        <span style="background: rgb(245, 146, 62);" onclick="document.val.ans.value+='-'">-</span>
+
+        <span onclick="document.val.ans.value+='7'">7</span>
+        <span onclick="document.val.ans.value+='8'">8</span>
+        <span onclick="document.val.ans.value+='9'">9</span>
+
+        <span style="background: rgb(245, 146, 62);" onclick="document.val.ans.value+='/'">/</span>
+
+        <span onclick="document.val.ans.value+='0'">0</span>
+        <!-- <span onclick="document.val.ans.value+='00'">00</span> -->
+        <span style="background: rgb(62, 76, 156);" onclick="document.val.ans.value=''">C</span>
+        <span style="background: rgb(14, 90, 48);" onclick="document.val.ans.value =eval(document.val.ans.value)">
+          =
+        </span>
+        <span style="background: rgb(245, 146, 62);" onclick="document.val.ans.value+='*'">*</span>
+
+        
+        
+        
+      </form>
+
+    </div>
+    </section>
+  </body>
+</html>
